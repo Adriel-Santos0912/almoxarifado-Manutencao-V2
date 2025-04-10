@@ -1,0 +1,109 @@
+#floatbtn{
+    position: absolute;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.delete {
+    position: absolute;
+    right: 0;
+}
+
+.table-dark th, td {
+    position: relative;
+    text-align: center;
+    max-width: 400px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-dark td {
+    padding: 0 5rem;
+}
+
+.editField {
+    color: #000;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+.tdSmall {
+    max-width: 6em;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.saldoFinal {
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    margin: 0;
+}
+
+.historic_list li:nth-child(odd) {
+    background-color: rgb(243, 243, 243);
+}
+
+.historic_list li:nth-child(even) {
+    background-color: #fcfcfc;
+}
+
+.historic_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.historic_list li{
+    padding: 0.5rem;
+}
+
+span {
+    float: right;
+    margin-right: 0.2rem;
+    color: #686868;
+}
+
+.bi-file-text::before {
+    font-size: larger;
+}
+
+.bi-clock::before {
+    vertical-align: 0;
+    font-size: small;
+}
+
+@media print {
+    .btn {
+        display: none;
+    }
+
+    header {
+        border: none;
+    }
+
+    table  {
+        border-collapse: collapse;
+    }
+
+    input {
+        background-color: transparent;
+    }
+
+    table th, td {
+        background-color: transparent;
+        width: 60px;
+    }
+
+    table th {
+        background-color: #202020;
+        color: #fff;
+    }
+}

@@ -1,0 +1,40 @@
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+main {
+    min-height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+#h1{
+    width: 90%;
+}
+
+#card{
+    background-color: #000000de;
+}
+
+.btn {
+    min-width: 100px;
+}
+
+.btnHome {
+    min-width: 0;
+}
+
+.btnDisab {
+    border: 1px solid #dddddd;
+    color: #808080;
+}
+
+.btnDisab:hover {
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+    color: #808080;
+}

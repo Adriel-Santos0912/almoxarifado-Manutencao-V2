@@ -1,0 +1,74 @@
+#h1{
+    width: 90%;
+}
+
+ul{
+    width: 100%;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#card{
+    background-color: black;
+}
+
+form {
+    width: 100%;
+}
+
+.table-dark th, td {
+    position: relative;
+    text-align: center;
+    max-width: 400px;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-dark td {
+    padding: 0 5rem;
+}
+
+#colsub{
+    width: 1rem;
+}
+
+#btndiv{
+    width: 100%;
+}
+
+.btnMod {
+    display: flex;
+}
+
+.btnback {
+    min-width: 30px;
+    border: none;
+}
+
+.btn {
+    min-width: 30px;
+    padding: 0.1rem 0;
+    margin: 0 0.2rem;
+}
+
+.inpAlter {
+    background-color: transparent;
+    outline: none;
+    width: 40px;
+    border: none;
+    text-align: center;
+    margin: 0 0.5rem;
+}
+
+.delete {
+    background-color: red;
+}
+
+.editar button {
+    background-color: transparent;
+    border: none;
+}

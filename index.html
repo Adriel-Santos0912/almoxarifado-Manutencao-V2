@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" defer></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="Img/ferramentaIcon.png">
+    <title>Almoxarifado Manutenção</title>
+</head>
+
+<body>
+    <header class="bg-dark d-flex justify-content-center align-items-center">
+        <h1 class="text-white">Almoxarifado Manutenção </h1>
+    </header>
+    <main>
+        <div class="container">
+            <form class="row d-flex justify-content-between" action="operation.php" method="POST">
+                <!-- Maquina Ds-2 -->
+                <article class="col-12 col-xl-4 p-3 p-xl-0 d-flex justify-content-center">
+                    <!-- Card -->
+                    <div class="card">
+                        <img src="Img/DS-2 whiteBG.png" class="card-img-top" alt="icone da Máquina-ds2">
+                        <!-- card-body -->
+                        <div class="card-body pt-0 ">
+                            <h5 class="card-title text-center">Máquina DS-2</h5>
+                            <br>
+                            <!-- botoes -->
+                            <div class="d-flex flex-column">
+                                <div class="d-block d-flex justify-content-center flex-column pb-2">
+                                    <button class="btn btn-info mb-2 mx-4" type="submit" name="btnAcess" value="ds2">Acessar</button>
+                                    <button class="btn btn-success mx-4" type="submit" name="btnRegister" value="ds2">Cadastrar Peças</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Maquina K-18 -->
+                <article class="col-12 col-xl-4 p-3 p-xl-0 d-flex justify-content-center ">
+                    <!-- Card -->
+                    <div class="card">
+                        <img src="Img/K-18 whiteBG.png" class="card-img-top" alt="icone da Máquina-k18">
+                        <!-- card-body -->
+                        <div class="card-body pt-0">
+                            <h5 class="card-title text-center">Máquina K-18</h5>
+                            <br>
+                            <!-- botoes -->
+                            <div class="d-flex flex-column">
+                                <div class="d-block d-flex justify-content-center flex-column pb-2">
+                                    <button class="btn btn-info mb-2 mx-4" type="submit" name="btnAcess" value="k18" >Acessar</button>
+                                    <button class="btn btn-success mx-4" type="submit" name="btnRegister" value="k18">Cadastrar Peças</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Resistencias -->
+                <article class="col-12 col-xl-4 p-3 p-xl-0 d-flex justify-content-center">
+                    <!-- Card -->
+                    <div class="card">
+                        <img src="Img/Resistencia whiteBG.png" class="card-img-top" alt="icone da Resistencia">
+                        <!-- card-body -->
+                        <div class="card-body pt-0">
+                            <h5 class="card-title text-center">Resistência</h5>
+                            <br>
+                            <!-- botoes -->
+                            <div class="d-flex flex-column">
+                                <div class="d-flex justify-content-center flex-column pb-2">
+                                    <button class="btn btn-info mb-2 mx-4" type="submit" name="btnAcess" value="resistencia">Acessar</button>
+                                    <button class="btn btn-success mx-4" type="submit" name="btnRegister" value="resistencia">Cadastrar Peças</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="col-12 pt-3 mb-5 mb-xl-1 d-flex justify-content-center">
+                    <button class="btn btn-success btn-lg" type="submit" name="btnLamina" value="ctrlLamina">
+                        Controle de Lâminas
+                        <img src="Img/estilete.png" width="40rem" height="30rem" alt="">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="bg-dark d-flex justify-content-center align-items-center">
+        <p class="m-0">Desenvolvido por 
+            <a id="link" class="text-decoration-none" href="https://github.com/Jesse-Luz" target="_blank"><strong>Jesse</strong></a> e 
+            <a id="link" class="text-decoration-none" href="https://github.com/Adriel-Santos0912" target="_blank"><strong>Adriel</strong></a>
+        </p>
+    </footer>
+</body>
+</html>
